@@ -4,17 +4,20 @@
       <Navbar />
       <Hero />
     </header>
+    <FeaturesOne />
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import FeaturesOne from './components/FeaturesOne';
 export default {
   name: 'app',
   components: {
     Navbar,
     Hero,
+    FeaturesOne,
   },
 };
 </script>
@@ -35,7 +38,7 @@ header {
   background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
   position: relative;
 }
 a {

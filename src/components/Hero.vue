@@ -1,5 +1,5 @@
 <template>
-  <main class="mono-landing__hero">
+  <section class="mono-landing__hero">
     <div class="container">
       <div class="mono-landing__left">
         <h1 class="mono-landing__heading">
@@ -31,7 +31,7 @@
         </div>
       </div>
     </div>
-  </main>
+  </section>
 </template>
 
 <script>
